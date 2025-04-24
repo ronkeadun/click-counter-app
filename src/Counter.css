@@ -1,0 +1,50 @@
+.container{
+    width: 50%;
+    max-width: 500px;
+    min-height: 60vh;
+    background-color: #282c34;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(235, 17, 17, 0.2);
+  }
+  
+  .count-value{
+    width: 40%;
+    font-size: 2rem;
+    color: #4a90e2;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  }
+  
+  button{
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .increment{
+    background-color: #4caf59; 
+  }
+  
+  .decrement{
+    background-color: #f44336; 
+  }
+  
+  .reset{
+    background-color: #ff9800; 
+  }
+  
+  button:hover{
+    opacity: 0.7;
+  }
+  
+  button[disabled]{
+    background-color: #abadb1; 
+    color: #000;
+  }
